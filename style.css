@@ -1,0 +1,254 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+/* if display none information none and none flex*/
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.none{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.thank{
+    font-size: 28px;
+    letter-spacing: 3.43px;
+    color: #21092F;
+}
+.added{
+    color: #8F8694;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: -1px;
+}
+.wrong1,.wrong2,.blank1, .blank2{
+    display: flex;
+}
+.flex_cards{
+    background-image: url(./images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+.back,.front{
+    width: 286px;
+    height: 156px;
+}
+.front{
+    position: relative;
+    top: -61px;
+    left: -38px;
+}
+.logos_div{
+    margin-top: -66px;
+    margin-left: -22px;
+}
+.logo{
+    position: relative;
+    top: -125px;
+    width: 35px;
+    left: -48px;
+}
+.zeroes{
+    position: relative;
+    top: -90px;
+    color: #ffffff;
+    margin: auto;
+    left: -50px;
+}
+.jane{
+    position: relative;
+    top: -80px;
+    gap: flex;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -102px;
+    color: #ffffff;
+}
+.designe{
+    font-size: 9px;
+    font-weight: 500;
+    
+}
+.title{
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 6px;
+    margin-left: 7px;
+}
+.first,.second,.therd{
+    display: flex;
+    flex-direction: column;
+}
+.text_inside1,.text_inside2{
+    font-size: 12px;
+    font-weight: 500;
+    color: #DFDEE0;
+    position: relative;
+    top: -43px;
+    margin-left: 11px;
+}
+input{
+    width: 327px;
+    height: 45px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #DFDEE0;
+}
+.cards_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    margin-top: 90px;
+}
+.date,.date2{
+    width: 72px;
+    height: 45px;
+}
+.date2{
+    width: 165px;
+}
+.therd{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.title2{
+    font-size: 13px;
+    margin-left: 50px;
+}
+.labels{
+    margin-left: -183px;
+    margin-bottom: 8px;
+}
+.inside{
+    display: flex;
+    gap: 60px;
+    margin-left: -81px;
+}
+.mm{
+    font-size: 12px;
+    font-weight: 500;
+    color: #DFDEE0;
+    position: relative;
+    top: -43px;
+    margin-left: 11px;
+}
+.button{
+    width:327px ;
+    height:53px ;
+    background-color: #21092F;
+    color: #ffffff;
+    border-radius: 8px;
+}
+@media(min-width: 1440px){
+    .cards_div{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .flex_cards{
+        background-image: url(./images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        width: 483px;
+        height: 900px;
+    }
+    .back,.front{
+        width: 447px;
+        height: 245px;
+    }
+    .back{
+        margin-top: 435px;
+        margin-left: 500px;
+    }
+    .front{
+        position: relative;
+        top: -531px;
+        left: 70px;
+    }
+    .logos_div{
+        margin-top: -562px;
+        margin-left: 91px;
+    }
+    .zeroes{
+        width: 350px;
+        height: 36px;
+        letter-spacing: 7px;
+        left: 16px;
+    }
+    .designe{
+        font-size: 14px;
+    }
+    .logo{
+        top: -199px;
+        width: 100px;
+        left: 26px;
+    }
+    .jane{
+        top: -126px;
+        letter-spacing: 1px;
+        justify-content: space-between;
+        margin-left: 17px;
+    }
+    .zeroes{
+        top: -128px;
+    }
+    input{
+        width: 385px;
+    }
+    .date{
+        width: 80px;
+    }
+    .date2{
+        width: 182px;
+    }
+    .button{
+        width: 381px;
+    }
+    .title2{
+        margin-left: -7px;
+    }
+    .text_inside1,.text_inside2,.mm{
+        font-size: 18px;
+        top: -50px;
+    }
+
+    /* after flex and not none */
+
+    .information{
+        display: flex;
+    }
+    .none{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .thank{
+        font-size: 28px;
+        letter-spacing: 3.43px;
+        color: #21092F;
+    }
+    .added{
+        color: #8F8694;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: -1px;
+    }
+    .butt{
+        margin-top: 36px;
+    }
+    
+}
