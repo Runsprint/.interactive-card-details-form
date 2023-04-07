@@ -26,8 +26,22 @@ body{
     letter-spacing: 1px;
     margin-top: -1px;
 }
+/* underground none, red text */
 .wrong1,.wrong2,.blank1, .blank2{
-    display: flex;
+    display: none;
+    font-size: 10px;
+    color: red;
+    letter-spacing: 1px;
+    position: relative;
+    top: -39px;
+    left: 6px;
+}
+/* display none */
+.blank{
+    display: none;
+    gap: 96px;
+    margin-left: -90px;
+
 }
 .flex_cards{
     background-image: url(./images/bg-main-mobile.png);
@@ -43,6 +57,18 @@ body{
 .back,.front{
     width: 286px;
     height: 156px;
+}
+/* flex and none 000 123 */
+.back_zeroes,.t123{
+    display: flex;
+    position: relative;
+    top: 95px;
+    left: 97px;
+    font-size: 16px;
+    color: #ffffff;
+}
+.t123{
+    display: none;
 }
 .front{
     position: relative;
@@ -250,5 +276,8 @@ input{
     .butt{
         margin-top: 36px;
     }
-    
+    .back_zeroes,.t123{
+        top: 572px;
+        left: 392px;
+    }
 }
