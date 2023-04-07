@@ -36,12 +36,21 @@ body{
     top: -39px;
     left: 6px;
 }
+.blank2{
+    left: 91px;
+}
+.blank1{
+    left: -87px;
+}
 /* display none */
 .blank{
-    display: none;
+    display: flex;
     gap: 96px;
     margin-left: -90px;
 
+}
+.blank1,.blank2{
+    display: none;
 }
 .flex_cards{
     background-image: url(./images/bg-main-mobile.png);
