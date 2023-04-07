@@ -33,20 +33,16 @@ body{
     color: red;
     letter-spacing: 1px;
     position: relative;
-    top: -39px;
     left: 6px;
 }
-.blank2{
-    left: 91px;
-}
+
 .blank1{
-    left: -87px;
+    display: flex;
+    top: -4px; 
 }
 /* display none */
 .blank{
     display: flex;
-    gap: 96px;
-    margin-left: -90px;
 
 }
 .blank1,.blank2{
@@ -125,6 +121,9 @@ body{
     display: flex;
     flex-direction: column;
 }
+.second{
+    margin-top: 20px;
+}
 .text_inside1,.text_inside2{
     font-size: 12px;
     font-weight: 500;
@@ -167,6 +166,7 @@ input{
 .labels{
     margin-left: -183px;
     margin-bottom: 8px;
+    margin-top: 28px;
 }
 .inside{
     display: flex;
@@ -187,6 +187,7 @@ input{
     background-color: #21092F;
     color: #ffffff;
     border-radius: 8px;
+    margin-top: 28px;
 }
 @media(min-width: 1440px){
     .cards_div{
