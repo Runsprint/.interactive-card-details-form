@@ -55,13 +55,12 @@ type_name.addEventListener("input",() => {
     } 
     name0.textContent = type_name.value;
 })
-//its for reload something, restart after click 
-contbtn.addEventListener("click", ()=>{
-    location.reload();
-})
-
+//its  second vertion for reload something, restart/refresh after click 
+// contbtn.addEventListener("click", ()=>{
+//     location.reload();
+// })
+contbtn.
 button.addEventListener("click", ()=>{
-     if(date3.value.length == 0) { blank2.style.display = "flex";}
      if( date3.value.length == 3 && date2.value.length == 2 
         && date1.value.length == 2 && ( /^[a-zA-Z ]+$/.test( type_name.value)) && number0.value.length == 16)  {   
        information.style.display = "none";
