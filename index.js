@@ -59,7 +59,6 @@ type_name.addEventListener("input",() => {
 // contbtn.addEventListener("click", ()=>{
 //     location.reload();
 // })
-contbtn.
 button.addEventListener("click", ()=>{
      if( date3.value.length == 3 && date2.value.length == 2 
         && date1.value.length == 2 && ( /^[a-zA-Z ]+$/.test( type_name.value)) && number0.value.length == 16)  {   
